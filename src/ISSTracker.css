@@ -1,0 +1,92 @@
+h1 {
+  margin: 0;
+  display: inline;
+}
+
+.latLong {
+  display: inline;
+  float: right;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .latLong {
+    font-size: 10px;
+  }
+}
+
+.GoogleMap {
+  height: 95vh; 
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .GoogleMap {
+    height: 85vh;
+  }
+}
+
+.historyDot {
+  width: 4px;
+  height: 4px;
+  background-color: rgba(255, 0, 0, 1);
+  position: relative;
+  top: -16px;
+  left: -4px;
+}
+
+.weatherPanel {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(0, 200, 255, 0.8);
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  background-image: url('./loading.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peoplePanel {
+  width: 200px;
+  padding: 5px;
+  position: fixed;
+  right: 10px;
+  top: 200px;
+  background-color: rgba(255, 255, 255, .9);
+  border: 1px black solid;
+  z-index: 1;
+}
+
+.peopleList {
+  font-size: 14px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .peoplePanel {
+    font-size: 8px;
+    width: 100px;
+    top: 40px;
+    right: 3px;
+  }
+
+  .peopleList {
+    font-size: 8px;
+    text-align: left;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
