@@ -1,6 +1,6 @@
 # ISS Tracker
 
-[Live version](http://dk-iss-tracker.herokuapp.com/)
+[Live version - Heroku](http://dk-iss-tracker.herokuapp.com/)
 
 (This project was an assignment during my React Development course at General Assembly)
 
